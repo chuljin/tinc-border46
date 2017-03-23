@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "----- TINC UP" | tee -a /var/log/tinc-border468 | logger -t tinc-border468
+ifconfig $INTERFACE up
+ip addr add 44.16.51.210/29 broadcast 44.16.51.215 scope link dev $INTERFACE
