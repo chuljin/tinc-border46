@@ -1,2 +1,2 @@
 #!/bin/sh
-echo "--- HOST UP: $NODE" | tee -a /var/log/tinc-border468 | logger -t tinc-border468
+echo "--- HOST UP: $NODE" | tee -a /var/log/tinc-border46 | logger -t tinc-border46
